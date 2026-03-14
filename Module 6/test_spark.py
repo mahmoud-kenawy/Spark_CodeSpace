@@ -18,5 +18,8 @@ df.repartition(4).write.parquet("/workspaces/Spark_CodeSpace/data/processed/yell
 '''
 df_15_nov = df.where(col("tpep_pickup_datetime").startswith("2025-11-15"))
 '''
+#Q3
+
+
 
 spark.stop()
